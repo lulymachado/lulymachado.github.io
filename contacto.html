@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlegriaStore</title>
+    <link rel="shortcut icon" type="image/x-icon" href="logo00.png" />
+    <link rel="stylesheet" href="prueba.css">
+    <style type="text/css">
+
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        #header {
+            padding: 0px;
+            margin: 0px;
+         font-family: Arial, Helvetica, sans-serif;
+         width: 100%;
+          
+         top: 0;
+         left: 0;
+        
+         
+        }
+
+        ul, ol {
+            list-style: none;
+        }
+
+        .nav li a {
+            background-color: #ff66c4;
+            color: black;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+        }
+
+        .nav li a:hover {
+            background-color: #ff66c4;
+        }
+
+        .nav > li {
+           float:inherit;
+        }
+
+        .nav li ul {
+            display: none;
+            position: absolute;
+            min-width: 140px;
+        }
+
+        .nav li:hover > ul {
+            display: block;
+        }
+
+        .nav li ul li {
+            position: relative;
+        }
+     body {
+          
+          background-color: #ff66c4;
+     
+            padding: 0px;
+            margin: 0px
+        }
+
+        #header {
+            padding: 0px;
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 100%;
+            top: 0;
+            left: 0;
+            
+        }
+
+        ul, ol {
+            list-style: none;
+        }
+
+        .nav li a {
+            background-color: #ff66c4;
+            color: black;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+        }
+
+        .nav li a:hover {
+            background-color: #ff66c4;
+        }
+
+        .nav > li {
+            float: none; /* Change to none to remove float */
+        }
+
+        .nav li ul {
+            display: none;
+            position: absolute;
+            min-width: 140px;
+        }
+
+       .logo img {
+        max-width: 70px;
+        float: left;
+        justify-content: left;
+        
+       }
+
+        .nav li:hover > ul {
+            display: block;
+        }
+
+        .nav li ul li {
+            position: relative;
+        }
+
+        body {
+            background-color: #ffffff;
+        }
+
+        /* New CSS for centering the navigation */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ff66c4;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            margin: 0;
+            gap: 20px; /* Optional: Adjust space between menu items */
+        }
+  </style>
+</head>
+<body>
+   
+
+    <!-- Navegación -->
+    <nav>
+        <div id="header">
+            <ul class="nav">
+                <li class="logo">
+                    <img src="logoagus.png" alt="Logo de Consentida"></li>
+                <li><a href="inicio.html">inicio</a></li>
+                <li><a href="sobrenosotros.html">sobre nosotros</a></li>
+                <li><a href="contacto.html">contacto</a></li>
+                <li><a href="productos.html">productos</a>
+                    <ul>
+                        <li><a href="productos.html">Todo</a></li>
+                        
+                </li>
+            </ul>
+        </div>
+</nav><br><br><br>
+  
+
+    <!-- Sección de inicio -->
+    <section class="inicio-h1">
+            <h1>CONTACTA CON NOSOTROS</h1>
+
+    </section><br><br>
+
+    <section class="contacto">
+         <form action="https://formsubmit.co/agussgregori11@gmail.com" method="POST" autocomplete="off">
+        <label for="nombre">Inserta Tu Nombre Completo:</label><br>
+        <input type="text" name="username" required><br><br>
+
+        <label for="email">Inserta Tu Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label for="message">Ingresa Tu Mensaje:</label><br>
+        <textarea id="message" name="message"></textarea><br>
+
+        <input type="submit" value="Enviar">
+        </form><br>
+        <p>Si deseas consultar mayor informacion sobre nuestros productos o tenes alguna duda al respecto,<br>
+            no dudes en comunicarte con nuestro equipo. Responderemos tu mensaje en el momento.
+        </p><br>
+
+        <div class="contenedor">
+            <img src="logowsp.jpg" alt="Imagen de ejemplo">
+            <div class="texto">
+                 <a href=" https://wa.me/3516351384 ">3516351384</a>
+            </div>
+        </div><br>
+
+        <div class="contenedor1">
+            <img src="logomail.jpg" alt="Imagen de ejemplo">
+            <div class="texto1">
+                <a href="mailto:agussgregori11@gmail.com">agussgregori11@gmail.com</a>
+            </div>
+        </div><br>
+
+        <div class="contenedor2">
+            <img src="logoubi.jpg" alt="Imagen de ejemplo">
+            <div class="texto2">
+                <a href="https://g.co/kgs/Q2gEFB6">calle publica f 3989</a>
+            </div>
+        </div><br>
+
+        <div class="inicio-h1">
+            <h1>GRACIAS POR CONFIAR EN NOSOTROS</h1></div>
+       
+    </section><br><br>
+
+    <!-- Sección sobre nosotros -->
+    <section id="sobre-nosotros" class="sobre-nosotros">
+    
+        <p>En "Alegria", nos dedicamos a ofrecer las mejores prendas de ropa para mujeres que buscan elegancia y comodidad. Fundada en 2010, nuestra misión es que cada persona que entre en nuestra tienda se sienta especial y consentida.</p>
+        <p>Nos esforzamos por ofrecer calidad, diseño único y atención personalizada. ¡Te esperamos!</p>
+    </section>
+
+    <footer class="footer1">
+        <nav class="redes">
+            <div>
+                <ul>
+                    <li class="logo"><img src="logoagus.png" alt="Logo de Consentida"></li>
+                    <li>¡Seguinos!</li>
+                    <li><a href="https://wa.me/3516351384"><img src="wspagus.jpg" alt="whatsapp"></li></a>
+                    <li>><img src="igagus.jpg" alt="instagram"></li></a>
+                    <li><img src="fbagus.jpg" alt="faceboook"></li></a>
+                    
+            </div>
+    </nav>
+    </footer>
+    <footer class="footer">
+        <p>&copy; 2024 Alegria - Todos los derechos reservados.</p>
+    </footer>

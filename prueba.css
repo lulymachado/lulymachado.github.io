@@ -1,0 +1,347 @@
+.inicio-contenido img {
+   max-width: 740px;
+   
+}
+
+
+
+/* Sección de inicio */
+.inicio {
+    background-color: #d46aac;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.inicio h1 {
+    font-size: 36px;
+    color: #d46aac;
+}
+
+.inicio p {
+    font-size: 20px;
+    color: #fff;
+}
+
+/* Sección Sobre Nosotros */
+.sobre-nosotros {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+}
+
+.sobre-nosotros h2 {
+    font-size: 32px;
+    color: #ff66c4;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.sobre-nosotros p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.sobre-nosotros img {
+    width:max-content;
+    height:max-content;
+}
+.sobre-nosotros9 {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+}
+
+.sobre-nosotros9 h2 {
+    font-size: 32px;
+    color: #ff66c4;
+    margin-bottom: 20px;
+}
+
+.sobre-nosotros9 p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-right: 40px;
+}
+.sobre-nosotros9 img {
+    width:460px;
+    height:460px;
+    margin-right: 40px;
+}
+
+.sobre-nosotros1 p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    width: 100%; /* Hace que el párrafo ocupe todo el ancho disponible */
+    margin: auto;   /* Elimina márgenes predeterminados */
+    padding: 0;
+    text-align: center;
+}
+/* Sección de productos */
+.productos {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.productos h2 {
+    font-size: 32px;
+    color: #ff66c4;
+    margin-bottom: 20px;
+}
+
+.productos-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #fff;
+}
+
+.producto {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.producto p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.producto p:nth-child(2) {
+    color: #ff66c4;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    background-color: #d46aac;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
+
+.footer1 {
+    background-color: #ff66c4;
+    padding: 9px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
+.contacto {
+    background-color: #ffe4e1;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.contacto p {
+    text-align: center;
+    font-size: 23px;
+    background-color: #ffcccb;
+    margin: 0%;
+}
+
+.contenedor {
+    display: flex;  /* Utiliza flexbox para alinear los elementos */
+    align-items: center;  /* Alinea verticalmente el texto y la imagen */
+}
+
+.contenedor img {
+    max-width: 29px;  /* Define un tamaño para la imagen */
+    margin-right: 10px;  /* Espacio entre la imagen y el texto */
+}
+
+.texto {
+    font-size: 20px;  /* Tamaño del texto */
+    color: #4d4d4d;  /* Color del texto */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenedor1 {
+    display: flex;  /* Utiliza flexbox para alinear los elementos */
+    align-items: center;  /* Alinea verticalmente el texto y la imagen */
+}
+
+.contenedor1 img {
+    max-width: 30px;  /* Define un tamaño para la imagen */
+    margin-right: 10px;  /* Espacio entre la imagen y el texto */
+}
+
+.texto1 {
+    font-size: 20px;  /* Tamaño del texto */
+    color: #4d4d4d;  /* Color del texto */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenedor2 {
+    display: flex;  /* Utiliza flexbox para alinear los elementos */
+    align-items: center;  /* Alinea verticalmente el texto y la imagen */
+}
+
+.contenedor2 img {
+    max-width: 30px;  /* Define un tamaño para la imagen */
+    margin-right: 10px;  /* Espacio entre la imagen y el texto */
+}
+
+.texto2 {
+    font-size: 20px;  /* Tamaño del texto */
+    color: #4d4d4d;  /* Color del texto */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contacto input{
+    max-width: 90px;
+}
+
+
+
+.producto-inicio {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+}
+
+.producto-inicio img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.producto-inicio p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #7c2c2c;
+}
+
+.producto-inicio p:nth-child(2) {
+    color: #ff69b4;
+    font-weight: bold;
+}
+
+.redes ul {
+    background-color: #ff69b4;
+        list-style-type: none; /* Elimina los puntos de la lista */
+        padding: 0; /* Elimina el padding */
+        display: flex; /* Hace que los elementos de la lista se alineen horizontalmente */
+        
+    
+    }
+
+  .redes li {
+        margin-right: 10px; /* Espacio entre los elementos */
+        background-color: #ff69b4;
+        text-align: end;
+    }
+
+    .redes li img{
+        max-width: 20px;
+        background-color: #ff69b4;
+    
+    }
+
+.somos-consentida {
+    font-size: 32px;
+    color: #ff69b4;
+    margin-bottom: 20px;
+    text-align: left; /* Alinea el texto a la derecha */
+    padding-left: 20%; 
+}
+
+.somos-consentida1 {
+    font-size: 32px;
+    color: #ff69b4;
+    margin-bottom: 20px;
+    text-align: right; /* Alinea el texto a la derecha */
+    padding-right: 20%; 
+}
+
+.ofertas {
+    text-align: center;
+}
+
+.productos-interior {
+    
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.productos-interior h2 {
+    font-size: 32px;
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+.productos-container-interior {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #fff;
+    align-items: center;
+}
+
+.producto-interior {
+    display: flex;
+    margin-right: 20px;
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+    width: 700px;
+    text-align: center;
+   
+}
+
+.producto-interior img {
+    width: 100%;
+    border-radius: 8px;
+    margin-right: 20px;
+    width: 400px;
+}
+
+.producto-interior p {
+   
+    margin-top: 10px;
+    font-size: 30px;
+    color: #333;
+    margin-left: 40px;
+}
+
+.producto-interior p:nth-child(2) {
+    color: #ff69b4;
+    font-weight: bold;
+}
+
+.descripcion {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.2; 
+    font-size: 17px;
+    color: #333;
+  
+}
+
+.inicio-h1 {
+    font-size: 32px;
+    color: #ff69b4;
+    margin-bottom: 20px;
+    text-align: center; /* Alinea el texto a la derecha */
+    
+}
